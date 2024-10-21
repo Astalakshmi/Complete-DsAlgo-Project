@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="ChromeTest(failed)" verbose="0">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="runner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="128 129 196 136 202 12 142 208 18 148 215 154 221 160 33 101 102 166 103 104 41 105 106 107 172 236 47 178 242 184 248 190 254 127"/>
+          <include name="tearDownClass"/>
+          <include name="defineBrowser"/>
+        </methods>
+      </class> <!-- runner.TestRunner -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

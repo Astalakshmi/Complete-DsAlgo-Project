@@ -1,0 +1,1823 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>229/34/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 21 00:36:20 PDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>576 seconds (576476 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the practice questions in Linked list practice page through Creating Linked list page", "DS Portal Linked List Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:290)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1769182002", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1769182002'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:290)
+</pre></div></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the practice questions in Stack practice page through Operations in stack page", "DS Portal Stack Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.StackStep.the_user_should_view_the_practice_questions_of_stack(StackStep.java:164)
+	at ?.the User should view the practice questions of stack(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Stack.feature:138)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1957418346", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1957418346'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.StackStep.the_user_should_view_the_practice_questions_of_stack(StackStep.java:164)
+	at ?.the User should view the practice questions of stack(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Stack.feature:138)
+</pre></div></td>
+<td>28</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Implementation of Binary Trees page Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:401)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1820430274", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1820430274'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:401)
+</pre></div></td>
+<td>29</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the practice questions in Linked list practice page through Traversal page", "DS Portal Linked List Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:308)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace24788019", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace24788019'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:308)
+</pre></div></td>
+<td>28</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Overview of Trees page Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:50)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace893952132", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace893952132'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:50)
+</pre></div></td>
+<td>28</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Practice Questions", "DS Portal Graph Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.GraphStep.the_user_should_navigate_to_practice_question_page(GraphStep.java:129)
+	at ?.The User should navigate to Practice Question Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/graph.feature:90)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1397447367", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1397447367'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.GraphStep.the_user_should_navigate_to_practice_question_page(GraphStep.java:129)
+	at ?.The User should navigate to Practice Question Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/graph.feature:90)
+</pre></div></td>
+<td>25</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Applications of Binary trees page Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:440)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1980613699", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1980613699'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:440)
+</pre></div></td>
+<td>24</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Run button with valid and invalid code in Max Consecutive Ones Page", "DsPortal Array Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: expected [1] but found [3]
+	at stepdefinitions.ArrayStep.the_User_should_vaidate_the_expected_output_in_the_Practice_Questions_Output_section(ArrayStep.java:365)
+	at ?.the User should vaidate the expected output in the Practice Questions Output section(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Array.feature:222)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1946700679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1946700679'><pre>java.lang.AssertionError: expected [1] but found [3]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepdefinitions.ArrayStep.the_User_should_vaidate_the_expected_output_in_the_Practice_Questions_Output_section(ArrayStep.java:365)
+	at ?.the User should vaidate the expected output in the Practice Questions Output section(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Array.feature:222)
+</pre></div></td>
+<td>28</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Types of Binary Trees page Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:284)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace564703736", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace564703736'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:284)
+</pre></div></td>
+<td>30</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Binary Tree Traversals page Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:362)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace781911757", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace781911757'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:362)
+</pre></div></td>
+<td>26</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Implementations in Python page Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:323)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace757165366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace757165366'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:323)
+</pre></div></td>
+<td>24</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the BinaryTrees page Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:245)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace749009149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace749009149'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:245)
+</pre></div></td>
+<td>31</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Traversals Illustration page Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:206)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace396620857", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace396620857'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:206)
+</pre></div></td>
+<td>30</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Time Complexity page Practice Questions", "Ds Portal DataStructure-Introduction Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.DataStructureStep.user_should_view_the_Practice_Questions_of_DataStructure(DataStructureStep.java:76)
+	at ?.user should view the Practice Questions of DataStructure(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/DataStructure.feature:52)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1102074989", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1102074989'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.DataStructureStep.user_should_view_the_Practice_Questions_of_DataStructure(DataStructureStep.java:76)
+	at ?.user should view the Practice Questions of DataStructure(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/DataStructure.feature:52)
+</pre></div></td>
+<td>29</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Practice Questions", "DS Portal Graph Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.GraphStep.the_user_should_navigate_to_practice_question_page(GraphStep.java:129)
+	at ?.The User should navigate to Practice Question Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/graph.feature:51)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1542063991", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1542063991'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.GraphStep.the_user_should_navigate_to_practice_question_page(GraphStep.java:129)
+	at ?.The User should navigate to Practice Question Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/graph.feature:51)
+</pre></div></td>
+<td>31</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here button in Basic Operations in Lists Page", "DsPortal Array Page Functionality"</td>
+<td><div><pre>io.cucumber.core.exception.CucumberException: Step [the User should get navigated to the Try Editor Page from the Basic Operations in Lists] is defined with 0 parameters at &apos;stepdefinitions.ArrayStep.the_user_should_get_navigated_to_the_try_editor_page_from_the_basic_operations_in_lists()&apos;.
+However, the gherkin step has 1 arguments:
+ * Table:
+
+Step text: the User should get navigated to the Try Editor Page from the Basic Operations in Lists
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1878330858", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1878330858'><pre>io.cucumber.core.exception.CucumberException: Step [the User should get navigated to the Try Editor Page from the Basic Operations in Lists] is defined with 0 parameters at &apos;stepdefinitions.ArrayStep.the_user_should_get_navigated_to_the_try_editor_page_from_the_basic_operations_in_lists()&apos;.
+However, the gherkin step has 1 arguments:
+ * Table:
+
+Step text: the User should get navigated to the Try Editor Page from the Basic Operations in Lists
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the practice questions in Linked list practice page through Types of Linked List page", "DS Portal Linked List Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:302)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2069816193", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2069816193'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:302)
+</pre></div></td>
+<td>24</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Traversals page Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:167)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1236843751", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1236843751'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:167)
+</pre></div></td>
+<td>28</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Binary Search Trees Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:479)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1518101278", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1518101278'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:479)
+</pre></div></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the practice questions in Linked list practice page through Implement linked lis page", "DS Portal Linked List Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:296)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1086412583", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1086412583'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:296)
+</pre></div></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the practice questions in Linked list practice page through Deletion page", "DS Portal Linked List Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:320)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace394452398", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace394452398'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:320)
+</pre></div></td>
+<td>25</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here button in Arrays using List Page", "DsPortal Array Page Functionality"</td>
+<td><div><pre>io.cucumber.core.exception.CucumberException: Step [the User should get navigated to the Try Editor Page from Arrays using List] is defined with 0 parameters at &apos;stepdefinitions.ArrayStep.the_user_should_get_navigated_to_the_try_editor_page_from_arrays_using_list()&apos;.
+However, the gherkin step has 1 arguments:
+ * Table:
+
+Step text: the User should get navigated to the Try Editor Page from Arrays using List
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1157133012", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1157133012'><pre>io.cucumber.core.exception.CucumberException: Step [the User should get navigated to the Try Editor Page from Arrays using List] is defined with 0 parameters at &apos;stepdefinitions.ArrayStep.the_user_should_get_navigated_to_the_try_editor_page_from_arrays_using_list()&apos;.
+However, the gherkin step has 1 arguments:
+ * Table:
+
+Step text: the User should get navigated to the Try Editor Page from Arrays using List
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Terminologies page Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:89)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace537049902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace537049902'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:89)
+</pre></div></td>
+<td>30</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Implementation Of BST Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:518)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace306197743", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace306197743'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:518)
+</pre></div></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the practice questions in Linked list practice page through Insertion page", "DS Portal Linked List Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:314)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace564460631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace564460631'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:314)
+</pre></div></td>
+<td>31</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Type of Trees page Practice Questions", "Ds Portal Tree Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:128)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace131018684", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace131018684'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ?.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:128)
+</pre></div></td>
+<td>30</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the DataStructure module page by clicking Get Started", "Ds Portal DataStructure-Introduction Page Functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Get Started&apos;]&quot;}
+  (Session info: chrome=129.0.6668.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d586d1640a11752f089ac541872b3df, findElement {using=xpath, value=//button[text()=&apos;Get Started&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\PALANI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56009/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d586d1640a11752f089ac541872b3df
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.HomePage.getStartedhomeclick(HomePage.java:83)
+	at stepdefinitions.LoginStep.the_user_is_on_the_login_page(LoginStep.java:37)
+	at ?.The User is on the login page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/DataStructure.feature:5)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace29561205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace29561205'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Get Started&apos;]&quot;}
+  (Session info: chrome=129.0.6668.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d586d1640a11752f089ac541872b3df, findElement {using=xpath, value=//button[text()=&apos;Get Started&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\PALANI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56009/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d586d1640a11752f089ac541872b3df
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.HomePage.getStartedhomeclick(HomePage.java:83)
+	at stepdefinitions.LoginStep.the_user_is_on_the_login_page(LoginStep.java:37)
+	at ?.The User is on the login page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/DataStructure.feature:5)
+</pre></div></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Practice Questions", "DS Portal Queue Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ?.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:128)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace366226083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace366226083'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ?.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:128)
+</pre></div></td>
+<td>26</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Practice Questions", "DS Portal Queue Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ?.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:166)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace496972840", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace496972840'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ?.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:166)
+</pre></div></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the practice questions in Stack practice page through Implementation in stack page", "DS Portal Stack Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.StackStep.the_user_should_view_the_practice_questions_of_stack(StackStep.java:164)
+	at ?.the User should view the practice questions of stack(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Stack.feature:144)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace808881486", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace808881486'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.StackStep.the_user_should_view_the_practice_questions_of_stack(StackStep.java:164)
+	at ?.the User should view the practice questions of stack(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Stack.feature:144)
+</pre></div></td>
+<td>37</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the practice questions in Stack practice page through Applications in stack page", "DS Portal Stack Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.StackStep.the_user_should_view_the_practice_questions_of_stack(StackStep.java:164)
+	at ?.the User should view the practice questions of stack(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Stack.feature:150)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace236201132", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace236201132'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.StackStep.the_user_should_view_the_practice_questions_of_stack(StackStep.java:164)
+	at ?.the User should view the practice questions of stack(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Stack.feature:150)
+</pre></div></td>
+<td>39</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the practice questions in Linked list practice page through Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:284)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace284048215", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace284048215'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ?.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:284)
+</pre></div></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Practice Questions", "DS Portal Queue Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ?.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:90)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1584124560", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1584124560'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ?.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:90)
+</pre></div></td>
+<td>29</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Practice Questions", "DS Portal Queue Page Functionality"</td>
+<td><div><pre>java.lang.AssertionError: No questions found
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ?.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:51)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1664428041", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1664428041'><pre>java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ?.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:51)
+</pre></div></td>
+<td>27</td>
+<td>runner.TestRunner@1b919693</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from Insertion page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Submit button with valid and invalid code in Squares of a Sorted Array Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>35</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Types of Binary Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from Implementation in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the  Tree Traversals Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Linked list practice questions page from Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Array Module", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>28</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Applications of Binary trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>27</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login with Invalid Credentials", "DsAlgo Portal Login Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the navigation from the Graph Representation Page to the Try Editor page", "DS Portal Graph Page Functionality"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from BinaryTrees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Implementation using array", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Binary Tree Traversals page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page-Binary Trees link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the Graph Representation Page", "DS Portal Graph Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Queue Operations", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try here page from Implement Linked List in python page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Type of Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Insertion page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Time Complexity page	Try here", "Ds Portal DataStructure-Introduction Page Functionality"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Squares of a Sorted Array in Array in Python Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the navigation from the first Topic Graph Page to the Try Editor page", "DS Portal Graph Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the Implementation Array Page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unsuccessful Register with Invalid Credentials", "DS Portal Register Functionality"</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unsuccessful Register with Invalid Credentials", "DS Portal Register Functionality"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try here page from Deletion page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Traversals Illustration Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unsuccessful Register with Invalid Credentials", "DS Portal Register Functionality"</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Type of Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for negative input through the Arrays using List Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from Deletion page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>25</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the dropdown list from Home page without Login", "DsAlgo Portal Login Functionality"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login with Invalid Credentials", "DsAlgo Portal Login Functionality"</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Applications of Binary trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Types of Binary Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the first Topic Graph Page", "DS Portal Graph Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the Implementation Lists page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from the Implementation collection Page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Run button with valid and invalid code in Search the Array Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try here page from Applications in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Types of linked list page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Creating linked list page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the Implementation collection Page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for negative input through the Arrays using List Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>27</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Linked list practice questions page from Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Max Consecutive Ones in Array in Python Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Binary Trees Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try here page from Insertion page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from Creating Linked list page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Implementation of Binary Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Implement linked list in python page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try here page from Operations in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Binary Tree Traversals page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Time Complexity page", "Ds Portal DataStructure-Introduction Page Functionality"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Find Numbers with Even Number of Digits in Array in Python Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>35</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from BinaryTrees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Operations in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from Traversal page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for negative input through the Arrays in Python Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the navigation from the Implementation Array Page to the Try Editor page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Stack practice questions page from Implementation in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Applications of Binary trees link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Linked list practice questions page from Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login with valid credentials", "DsAlgo Portal Login Functionality"</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unsuccessful Register with Invalid Credentials", "DS Portal Register Functionality"</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Applications in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Binary Search Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from the Implementation Array Page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Applications of Binary trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the navigation from the Queue Operation Page to the Try Editor page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Traversals Illustration page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Binary Tree Traversals page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the DataStructure Introduction page Timecomplexity link", "Ds Portal DataStructure-Introduction Page Functionality"</td>
+<td></td>
+<td>16</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from Operations in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate  the Overview of Trees Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the Queue Operation Page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for positive input through the Arrays using List Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Run button with valid and invalid code in Squares of a Sorted Array Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>42</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Implementation Using Collections Dequeue", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>13</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login with Invalid Credentials", "DsAlgo Portal Login Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Implementation of Binary Trees Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>26</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Run button with valid and invalid code in Squares of a Sorted Array Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>33</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Datastructure Introduction dropdown", "DsAlgo Homepage Functionality"</td>
+<td></td>
+<td>16</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Implementation in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>16</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Tree page by clicking the from dropdown list", "DsAlgo Homepage Functionality"</td>
+<td></td>
+<td>16</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Types of Linked List page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from Types of Linked List page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Run button with valid and invalid code in Find Numbers with Even Number of Digits Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>35</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Applications in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Overview of Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Traversal page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Traversals Illustration page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Deletion page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Implementation of Binary Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Applications in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from Applications in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Applications of Array link in Array Module Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Submit button with valid and invalid code in Search the Array Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>32</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for positive input through the Applications of Array Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Terminologies Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Arrays in Python link in Array Module Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from BinaryTrees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>27</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Implementation Of BST page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the insertion page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>13</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Implementations in Python page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>28</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the Queue Operation Page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try here page from Traversal page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Implementation of Binary Trees link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>26</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Search the Array in Array in Python Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>35</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the navigation from the Implementation collection Page to the Try Editor page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unsuccessful Register with Invalid Credentials", "DS Portal Register Functionality"</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Operations in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Tree Traversals page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Types of Binary Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for negative input through the Arrays using List Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try here page from Types of Linked List page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>16</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login with Invalid Credentials", "DsAlgo Portal Login Functionality"</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Applications of Binary trees Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>28</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the Implementation Array Page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Binary Search Trees link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>13</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unsuccessful Register with Invalid Credentials", "DS Portal Register Functionality"</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Implementations in Python page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the account holdername in the Homepage", "DsAlgo Homepage Functionality"</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from the Queue Operation Page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Implementations in Python link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for positive input through the Arrays in Python Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>45</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Traversals Illustration page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module page by clicking Get Started", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here button in Arrays in Python", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>40</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for negative input through the Applications of Array Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Types of Binary Trees Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>27</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Implementations in Python page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>30</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Deletion page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Implementation of Binary Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Types of Binary Trees link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Linked List page by clicking from the dropdown list", "DsAlgo Homepage Functionality"</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Terminologies page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the signout of the user account", "DsAlgo Homepage Functionality"</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Types of Trees link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Linked list practice questions page from Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Binary Search Trees Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Linked list practice questions page from Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Practice Questions link in Applications of Array Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Run button with valid and invalid code in Find Numbers with Even Number of Digits Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>25</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the Graph Representation Page", "DS Portal Graph Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from Overview of Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>26</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Binary Tree Traversals link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>16</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Basic Operations in Lists link in Array Module Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Practice Questions link in Arrays using List Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Graph page by clicking the from dropdown list", "DsAlgo Homepage Functionality"</td>
+<td></td>
+<td>16</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for positive input through the Basic Operations in Lists Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the implement linked list in python page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unsuccessful Register with Invalid Credentials", "DS Portal Register Functionality"</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the deletion page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Traversal page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Creating Linked list page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Linked list practice questions page from Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>16</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Operations in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the login with Invalid Credentials", "DsAlgo Portal Login Functionality"</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Logo of NumpyNinja in the Home page", "DsAlgo Homepage Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Implementation in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Binary Search Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Arrays page by clicking from the dropdown list", "DsAlgo Homepage Functionality"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Graph page link", "DS Portal Graph Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Graph Representations page", "DS Portal Graph Page Functionality"</td>
+<td></td>
+<td>14</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Types of Linked List page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Linked list practice questions page from Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Stack practice questions page from Applications of stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the Implementation Lists page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>27</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Run button with valid and invalid code in Search the Array Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for negative input through the Arrays in Python Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>40</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Implementation in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the first Topic Graph Page", "DS Portal Graph Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Implementation of the lists page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from the Implementation collection Page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try here page from Introduction page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Binary Search Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Tree Traversals page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the traversal page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>13</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Implementation Of BST Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Tree Traversals page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here button in Applications of Array Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Practice Questions link in Array in Python Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from Terminologies page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Stack page by clicking the from dropdown list", "DsAlgo Homepage Functionality"</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the navigation from the Implementation Lists page to the Try Editor page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from Implement linked list in python page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Traversals Illustration link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Get Started Click button on Home page  without Login", "DsAlgo Portal Login Functionality"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Creating Linked list page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>24</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try here page from Creating Linked list page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Overview of Trees link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unsuccessful Register with Invalid Credentials", "DS Portal Register Functionality"</td>
+<td></td>
+<td>8</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for negative input through the Arrays using List Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Tree Traversals link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Implementation Of BST page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the  Type of Trees Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Implementation Of BST page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Implementations in Python Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Submit button with valid and invalid code in Max Consecutive Ones Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>32</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Practice Questions link in Basic Operations in Lists Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from the first Topic Graph Page", "DS Portal Graph Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try here page from Implementation in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Terminologies link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Submit button with valid and invalid code in Find Numbers with Even Number of Digits Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>41</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Try here Page for negative input through the Applications of Array Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Queue page by clicking the from dropdown list", "DsAlgo Homepage Functionality"</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Stack practice questions page from Operations in stack page", "DS Portal Stack Page Functionality"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Overview of Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>21</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Time Complexity page", "Ds Portal DataStructure-Introduction Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Tree Module Page Implementation Of BST link", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Arrays using List link in Array Module Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate linked list page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Try editor for positive input from Type of Trees page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Insertion page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Binary Tree Traversals Try here", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Implement linked list in python page", "DS Portal Linked List Page Functionality"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Graph Page", "DS Portal Graph Page Functionality"</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the Queue Page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Run button with valid and invalid code in Max Consecutive Ones Page", "DsPortal Array Page Functionality"</td>
+<td></td>
+<td>29</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Terminologies page", "Ds Portal Tree Page Functionality"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from the Graph Representation Page", "DS Portal Graph Page Functionality"</td>
+<td></td>
+<td>23</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for positive input from the Implementation Lists page", "DS Portal Queue Page Functionality"</td>
+<td></td>
+<td>28</td>
+<td>runner.TestRunner@1b919693</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate the Try editor for negative input from Time Complexity page", "Ds Portal DataStructure-Introduction Page Functionality"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@1b919693</td></tr>
+</table><p>
+</body>
+</html>

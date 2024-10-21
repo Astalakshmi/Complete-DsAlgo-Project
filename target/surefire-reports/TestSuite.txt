@@ -1,0 +1,297 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 263, Failures: 34, Errors: 0, Skipped: 0, Time elapsed: 577.5 s <<< FAILURE! -- in TestSuite
+runner.TestRunner.runScenario["Validating Try here button in Arrays using List Page", "DsPortal Array Page Functionality"](12) -- Time elapsed: 3.744 s <<< FAILURE!
+io.cucumber.core.exception.CucumberException: 
+Step [the User should get navigated to the Try Editor Page from Arrays using List] is defined with 0 parameters at 'stepdefinitions.ArrayStep.the_user_should_get_navigated_to_the_try_editor_page_from_arrays_using_list()'.
+However, the gherkin step has 1 arguments:
+ * Table:
+
+Step text: the User should get navigated to the Try Editor Page from Arrays using List
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+runner.TestRunner.runScenario["Validating Try here button in Basic Operations in Lists Page", "DsPortal Array Page Functionality"](17) -- Time elapsed: 10.80 s <<< FAILURE!
+io.cucumber.core.exception.CucumberException: 
+Step [the User should get navigated to the Try Editor Page from the Basic Operations in Lists] is defined with 0 parameters at 'stepdefinitions.ArrayStep.the_user_should_get_navigated_to_the_try_editor_page_from_the_basic_operations_in_lists()'.
+However, the gherkin step has 1 arguments:
+ * Table:
+
+Step text: the User should get navigated to the Try Editor Page from the Basic Operations in Lists
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+runner.TestRunner.runScenario["Validating Run button with valid and invalid code in Max Consecutive Ones Page", "DsPortal Array Page Functionality"](33) -- Time elapsed: 0.361 s <<< FAILURE!
+java.lang.AssertionError: expected [1] but found [3]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepdefinitions.ArrayStep.the_User_should_vaidate_the_expected_output_in_the_Practice_Questions_Output_section(ArrayStep.java:365)
+	at ✽.the User should vaidate the expected output in the Practice Questions Output section(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Array.feature:222)
+
+runner.TestRunner.runScenario["Validate the DataStructure module page by clicking Get Started", "Ds Portal DataStructure-Introduction Page Functionality"](39) -- Time elapsed: 0.012 s <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Get Started']"}
+  (Session info: chrome=129.0.6668.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d586d1640a11752f089ac541872b3df, findElement {using=xpath, value=//button[text()='Get Started']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\PALANI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56009}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56009/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d586d1640a11752f089ac541872b3df
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.HomePage.getStartedhomeclick(HomePage.java:83)
+	at stepdefinitions.LoginStep.the_user_is_on_the_login_page(LoginStep.java:37)
+	at ✽.The User is on the login page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/DataStructure.feature:5)
+
+runner.TestRunner.runScenario["Validate the Time Complexity page Practice Questions", "Ds Portal DataStructure-Introduction Page Functionality"](56) -- Time elapsed: 2.213 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.DataStructureStep.user_should_view_the_Practice_Questions_of_DataStructure(DataStructureStep.java:76)
+	at ✽.user should view the Practice Questions of DataStructure(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/DataStructure.feature:52)
+
+runner.TestRunner.runScenario["validate the practice questions in Linked list practice page through Introduction page", "DS Portal Linked List Page Functionality"](104) -- Time elapsed: 0.507 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ✽.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:284)
+
+runner.TestRunner.runScenario["validate the practice questions in Linked list practice page through Creating Linked list page", "DS Portal Linked List Page Functionality"](105) -- Time elapsed: 0.211 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ✽.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:290)
+
+runner.TestRunner.runScenario["validate the practice questions in Linked list practice page through Implement linked lis page", "DS Portal Linked List Page Functionality"](106) -- Time elapsed: 1.037 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ✽.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:296)
+
+runner.TestRunner.runScenario["validate the practice questions in Linked list practice page through Types of Linked List page", "DS Portal Linked List Page Functionality"](107) -- Time elapsed: 1.251 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ✽.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:302)
+
+runner.TestRunner.runScenario["validate the practice questions in Linked list practice page through Traversal page", "DS Portal Linked List Page Functionality"](109) -- Time elapsed: 3.061 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ✽.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:308)
+
+runner.TestRunner.runScenario["validate the practice questions in Linked list practice page through Insertion page", "DS Portal Linked List Page Functionality"](110) -- Time elapsed: 3.516 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ✽.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:314)
+
+runner.TestRunner.runScenario["validate the practice questions in Linked list practice page through Deletion page", "DS Portal Linked List Page Functionality"](111) -- Time elapsed: 2.339 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.LinkedListStep.the_user_should_view_the_practice_questions_of_linked_list(LinkedListStep.java:344)
+	at ✽.the User should view the practice questions of Linked List(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/LinkedList.feature:320)
+
+runner.TestRunner.runScenario["validate the practice questions in Stack practice page through Operations in stack page", "DS Portal Stack Page Functionality"](128) -- Time elapsed: 8.273 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.StackStep.the_user_should_view_the_practice_questions_of_stack(StackStep.java:164)
+	at ✽.the User should view the practice questions of stack(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Stack.feature:138)
+
+runner.TestRunner.runScenario["validate the practice questions in Stack practice page through Implementation in stack page", "DS Portal Stack Page Functionality"](132) -- Time elapsed: 0.576 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.StackStep.the_user_should_view_the_practice_questions_of_stack(StackStep.java:164)
+	at ✽.the User should view the practice questions of stack(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Stack.feature:144)
+
+runner.TestRunner.runScenario["Validate the Overview of Trees page Practice Questions", "Ds Portal Tree Page Functionality"](137) -- Time elapsed: 0.140 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:50)
+
+runner.TestRunner.runScenario["validate the practice questions in Stack practice page through Applications in stack page", "DS Portal Stack Page Functionality"](139) -- Time elapsed: 1.281 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.StackStep.the_user_should_view_the_practice_questions_of_stack(StackStep.java:164)
+	at ✽.the User should view the practice questions of stack(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Stack.feature:150)
+
+runner.TestRunner.runScenario["Validate the Terminologies page Practice Questions", "Ds Portal Tree Page Functionality"](147) -- Time elapsed: 0.080 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:89)
+
+runner.TestRunner.runScenario["Validate the Type of Trees page Practice Questions", "Ds Portal Tree Page Functionality"](152) -- Time elapsed: 0.076 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:128)
+
+runner.TestRunner.runScenario["Validate the Tree Traversals page Practice Questions", "Ds Portal Tree Page Functionality"](158) -- Time elapsed: 3.002 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:167)
+
+runner.TestRunner.runScenario["Validate the Traversals Illustration page Practice Questions", "Ds Portal Tree Page Functionality"](167) -- Time elapsed: 1.127 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:206)
+
+runner.TestRunner.runScenario["Validate the BinaryTrees page Practice Questions", "Ds Portal Tree Page Functionality"](170) -- Time elapsed: 0.054 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:245)
+
+runner.TestRunner.runScenario["Validate the Types of Binary Trees page Practice Questions", "Ds Portal Tree Page Functionality"](176) -- Time elapsed: 0 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:284)
+
+runner.TestRunner.runScenario["Validate the Implementations in Python page Practice Questions", "Ds Portal Tree Page Functionality"](184) -- Time elapsed: 0.253 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:323)
+
+runner.TestRunner.runScenario["Validate the Binary Tree Traversals page Practice Questions", "Ds Portal Tree Page Functionality"](186) -- Time elapsed: 0.017 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:362)
+
+runner.TestRunner.runScenario["Validate the Implementation of Binary Trees page Practice Questions", "Ds Portal Tree Page Functionality"](193) -- Time elapsed: 0.294 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:401)
+
+runner.TestRunner.runScenario["Validate the Applications of Binary trees page Practice Questions", "Ds Portal Tree Page Functionality"](201) -- Time elapsed: 2.306 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:440)
+
+runner.TestRunner.runScenario["Validate the Binary Search Trees Practice Questions", "Ds Portal Tree Page Functionality"](205) -- Time elapsed: 0.938 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:479)
+
+runner.TestRunner.runScenario["Validate the Implementation Of BST Practice Questions", "Ds Portal Tree Page Functionality"](211) -- Time elapsed: 1.675 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.TreeStep.user_should_view_the_Practice_Questions_of_Tree(TreeStep.java:81)
+	at ✽.user should view the Practice Questions of Tree(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/Tree.feature:518)
+
+runner.TestRunner.runScenario["Validate the Practice Questions", "DS Portal Graph Page Functionality"](221) -- Time elapsed: 0.168 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.GraphStep.the_user_should_navigate_to_practice_question_page(GraphStep.java:129)
+	at ✽.The User should navigate to Practice Question Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/graph.feature:51)
+
+runner.TestRunner.runScenario["Validate the Practice Questions", "DS Portal Graph Page Functionality"](227) -- Time elapsed: 4.220 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.GraphStep.the_user_should_navigate_to_practice_question_page(GraphStep.java:129)
+	at ✽.The User should navigate to Practice Question Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/graph.feature:90)
+
+runner.TestRunner.runScenario["Validate the Practice Questions", "DS Portal Queue Page Functionality"](241) -- Time elapsed: 0.192 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ✽.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:51)
+
+runner.TestRunner.runScenario["Validate the Practice Questions", "DS Portal Queue Page Functionality"](249) -- Time elapsed: 0.568 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ✽.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:90)
+
+runner.TestRunner.runScenario["Validate the Practice Questions", "DS Portal Queue Page Functionality"](253) -- Time elapsed: 0.071 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ✽.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:128)
+
+runner.TestRunner.runScenario["Validate the Practice Questions", "DS Portal Queue Page Functionality"](261) -- Time elapsed: 5.446 s <<< FAILURE!
+java.lang.AssertionError: No questions found
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepdefinitions.QueueStep.the_user_should_navigate_to_queue_practice_page(QueueStep.java:224)
+	at ✽.The User should navigate to queue Practice Page(file:///C:/Users/Palanivel/eclipse-workspace/asta_dsalgoBDD/./src/test/resources/features/queue.feature:166)
+
